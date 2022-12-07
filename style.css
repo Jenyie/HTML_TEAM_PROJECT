@@ -1,0 +1,187 @@
+/* Reset Styles */
+/*CSS universal selector */
+* {
+  margin : 0;
+}
+/*Website wrapper*/
+.content { 
+	width : auto; 
+	background-color: #DDD0C8;
+  margin: 0%;
+	border : 0px;
+  
+  
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #dbccc3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #a39a95;
+}
+
+/* Style the topnav links */
+.topnav a {
+  display: block;
+  color: #323232;
+  float: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: white;
+  color: #323232;
+}
+
+#headh1{
+  margin-left: 10%;
+  font-family: "Lucida Handwriting";
+  font-size: 100px;
+  color: 	#323232;
+}
+/*Removing bold of the text  */
+.notbold{
+    font-weight:normal
+}
+
+#headh2{
+  margin-left: 10%;
+  font-family: "Palatino Linotype";
+  font-size: 20px;
+  color: #323232;
+  
+}
+.button {
+ background-color: #a19892;
+  border: none;
+  color: #323232;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-left: 10%;
+}
+
+.button:hover {
+  background-color: white;
+}
+/*Half page image */
+.bg {
+  /* The image used */
+  background-image: url("Image/star.jpg");
+
+  /* Full height */
+  height: 500px; 
+
+  /* Center and scale the image*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+p{
+  text-align: left;
+  font-family: "Lucida Handwriting";
+  font-size: 80%;
+  color: #323232;
+}
+
+#paragraph1 {
+  color: #323232;
+  text-align : center;
+  font-size: 17px;
+  font-family : "Palatino Linotype" ;
+}
+
+#paragraph2 {
+  color: #323232;
+  text-align : left;
+  font-size: 17px;
+  margin-left: 15%;
+  margin-right:15%;
+  font-family : "Palatino Linotype" ;
+}
+
+#paragraph3 {
+  color: #323232;
+  text-align : left;
+  font-size: 25px;
+  margin-left: 15%;
+  margin-right:15%;
+  font-family : "Palatino Linotype" ;
+}
+
+#paragraph4 {
+  color: #323232;
+  text-align : left;
+  font-size: 17px;
+  margin-right:15%;
+  font-family : "Palatino Linotype" ;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+   display: flex;
+}
+
+/*4 equal columns that sits next to each other */
+.column {
+  margin-left: 0%;
+  flex: 25%;
+  padding: 20px;
+}
+
+
+#head15{
+  text-align: center;
+  font-family: "Palatino Linotype";
+  color: #323232;
+}
+
+/* Deviding the aabout us page in 2*/
+
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer link*/
+  footer a:hover, footer a:active, footer a:link, footer a:visited {
+  background-color: #dbccc3;
+  color: #323232;
+  text-decoration: none;
+  
+}
+
+footer{ 
+  width: auto;
+	clear : both ; 
+	padding : 20px; 
+	background : #dbccc3;
+	color : #323232;
+  border-top: 1px solid #a39a95;
+	}
+.dayHoro {
+  margin-left: 15%;
+  margin-right:15%;
+}
